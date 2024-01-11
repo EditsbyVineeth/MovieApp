@@ -1,38 +1,123 @@
 .App {
   text-align: center;
+  overflow: hidden;
+  
+  
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.title-logo{
+  font-family: 'Noto Sans Mandaic', sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* Start button animation */
+
+.start_btn {
+  cursor: pointer;
+  animation: pulse 600ms infinite alternate; /* Using keyframe animation */
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
+/* Keyframe animation */
+@keyframes pulse {
   from {
-    transform: rotate(0deg);
+    transform: scale(1);
   }
   to {
-    transform: rotate(360deg);
+    transform: scale(1.02);
   }
+}
+
+
+/* Navbar styles */
+
+.title_bar{
+   position: fixed;
+   transition: all 0.5s ease-in;
+  }
+  
+  .title_bar2{
+    background-color: #F4EEE0;
+    z-index: 999;
+
+  }
+  
+  .title_bar ul li{
+    color: rgb(170, 20, 20);
+    /* text-shadow: -2px 0px 0px #2f0202; */
+    display: block;  
+}
+
+
+.parent-img-container{
+  height: 100vh;
+  /* background-color:  green; */
+  
+}
+
+.child-container{
+  background-image: 
+  linear-gradient(to bottom, black,transparent,black),
+  /* linear-gradient(to right, black, transparent), */
+  url('/src/Components/Images/netflix_background.png');
+  opacity: 40%;
+  background-size:  cover;
+
+}
+
+/* gradient effect size */
+
+.gradient-bg {
+  background-image: linear-gradient(to bottom, #FF0000, #000000);
+  background-size: 100% 300px; /* Adjust the second value to control the spread size */
+}
+
+
+/* First section styles */
+.first_section{
+   border-top-left-radius :  10px;
+   border-top-right-radius : 10px;
+  
+}
+
+
+.miniDiv{
+  background-color: aqua;
+  width: 200px;
+  height: 200px;
+}
+
+
+/* Scroll bar removed  from the div */
+
+.row_posters::-webkit-scrollbar{
+  display: none;
+}
+
+/* For Large rows */
+.row_poster {
+  max-width: 200px;
+  max-height: 300px;
+}
+
+.row_posterLarge{
+  max-width: 260px;
+  max-height: auto;
+}
+
+
+.banner{
+  height: 500px;
+}
+
+@media (max-width:640px) {
+  
+  .title_bar ul{
+    display: none;
+  }
+
+  .row_posterLarge{
+    max-height: 220px;
+  }
+
 }
