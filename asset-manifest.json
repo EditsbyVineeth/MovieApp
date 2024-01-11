@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/MovieApp/static/css/main.3c4cfc42.css",
+    "main.js": "/MovieApp/static/js/main.028943c1.js",
+    "static/media/netflix_background.png": "/MovieApp/static/media/netflix_background.bf3a2484e5e291afb1b6.png",
+    "static/media/ChildrenZone.png": "/MovieApp/static/media/ChildrenZone.18173e06455c8e236fcf.png",
+    "static/media/android.png": "/MovieApp/static/media/android.5783331cc49747676e3c.png",
+    "static/media/Screenshot (125).png": "/MovieApp/static/media/Screenshot (125).a0dcc3771e26f4e48318.png",
+    "static/media/Logo_title.png": "/MovieApp/static/media/Logo_title.bea5f069369a417836bb.png",
+    "index.html": "/MovieApp/index.html",
+    "main.3c4cfc42.css.map": "/MovieApp/static/css/main.3c4cfc42.css.map",
+    "main.028943c1.js.map": "/MovieApp/static/js/main.028943c1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3c4cfc42.css",
+    "static/js/main.028943c1.js"
+  ]
+}
