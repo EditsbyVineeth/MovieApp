@@ -5,7 +5,6 @@ import requests from "./Requests"
 import Banner from "./Banner";
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import MyList from "./MyList";
-import Account from "./Account";
 
 
 export default function Layout({hideLayout}) {
@@ -75,7 +74,7 @@ export default function Layout({hideLayout}) {
             }/>
             <Route exact path='/mylist' element={<MyList handleMylist={handleMylist} likedMovieName={likedMovieName} />}/>
          </Routes>
-         <Account/>
+        
 
          {/* ------------------------------ */}
 
