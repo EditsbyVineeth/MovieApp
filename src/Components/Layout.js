@@ -3,7 +3,7 @@ import Navbar from "./Navbar";
 import Rows from "./Rows";
 import requests from "./Requests"
 import Banner from "./Banner";
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { HashRouter as Router, Route, Routes } from 'react-router-dom';
 import MyList from "./MyList";
 
 
