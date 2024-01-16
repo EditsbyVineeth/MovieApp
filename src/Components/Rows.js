@@ -115,8 +115,8 @@ export default function Rows({ title, fetchUrl,isLargeRow, handleNotification}) 
                         <span className=' text-white hover:text-red-700' ><MdOutlineStarPurple500 size={20}/></span>
                         &nbsp;&nbsp;{movie.vote_average}</div>
                       
-                          <div className=' flex flex-row justify-start m-1 '>
-                            <span className=' font-semibold hover:opacity-60'>{movie.name||movie.title||movie.original_name} </span>
+                          <div className=' flex flex-row justify-start mt-4'>
+                            <span className=' hover:opacity-60'>{movie.name||movie.title||movie.original_name} </span>
                           </div>
 
                </>

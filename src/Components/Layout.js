@@ -54,7 +54,7 @@ export default function Layout({hideLayout}) {
 
   return (
     <Router>
-         <div className={`rating ? ${" blur"}:{''}`}>
+         <div className=''>
            <Navbar handleHideLayout={handleHideLayout}  handleSearchTerm={handleSearchTerm}/>
 
            {/* Page  rouitng  ............. */}
@@ -62,13 +62,15 @@ export default function Layout({hideLayout}) {
             <Route exact path='/' element={
 
               <>
-                <Banner/>              
-                <Rows handleNotification={handleNotification} title="Trending now" fetchUrl={requests.fetchTrending} isLargeRow={true}/>
-                <Rows handleNotification={handleNotification} title="Top Rated" fetchUrl={requests.fetchTopRated}/>
-                <Rows handleNotification={handleNotification} title="Netflix Originals" fetchUrl={requests.fetchNetflixOriginals}/>
-                <Rows handleNotification={handleNotification} title="Action" fetchUrl={requests.fetchActionMovies}/>
-                <Rows handleNotification={handleNotification} title="Comedy" fetchUrl={requests.fetchComedyMovies}/>
-                <Rows handleNotification={handleNotification} title="Horror" fetchUrl={requests.fetchHorrorMovies}/>
+                <div className={ rating ?'blur' : ' '}>
+                  <Banner/>              
+                  <Rows handleNotification={handleNotification} title="Trending now" fetchUrl={requests.fetchTrending} isLargeRow={true}/>
+                  <Rows handleNotification={handleNotification} title="Top Rated" fetchUrl={requests.fetchTopRated}/>
+                  <Rows handleNotification={handleNotification} title="Netflix Originals" fetchUrl={requests.fetchNetflixOriginals}/>
+                  <Rows handleNotification={handleNotification} title="Action" fetchUrl={requests.fetchActionMovies}/>
+                  <Rows handleNotification={handleNotification} title="Comedy" fetchUrl={requests.fetchComedyMovies}/>
+                  <Rows handleNotification={handleNotification} title="Horror" fetchUrl={requests.fetchHorrorMovies}/>
+                </div>
               </>
               
             }/>
@@ -80,7 +82,7 @@ export default function Layout({hideLayout}) {
 
            <div className="rating-notification-wrapper fixed top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-50">
              {rating && (
-               <div className="relative h-32 w-96 bg-green-300 text-2xl  text-black text-center p-2 rounded-lg">
+               <div className=" rating__card relative h-32 w-96 text-2xl text-center p-2 rounded-lg">
                 <span className=" font-semibold uppercase">{`  ${likedMovie}`} </span>  <span className=" text-xl"> added to your List </span>
                </div>
              )}

@@ -37,21 +37,19 @@
   }
   
   .title_bar2{
-    background-color: #F4EEE0;
+    background:linear-gradient(to right,rgb(77, 5, 5) , rgb(235, 18, 18), black);
     z-index: 999;
+    color:white;
 
   }
   
   .title_bar ul li{
-    color: rgb(170, 20, 20);
-    /* text-shadow: -2px 0px 0px #2f0202; */
     display: block;  
 }
 
 
 .parent-img-container{
   height: 100vh;
-  /* background-color:  green; */
   
 }
 
@@ -108,6 +106,15 @@
 
 .banner{
   height: 500px;
+}
+
+.rating__card{
+ color: rgb(219, 14, 14);
+ background: rgba(184, 168, 168, 0.15); 
+ backdrop-filter: blur(40px); 
+ border-radius: 10px;
+ border: 1px solid rgba(255, 255, 255, 0.1); 
+ overflow: hidden;
 }
 
 @media (max-width:640px) {

@@ -27,13 +27,14 @@ export default function Navbar({handleHideLayout}) {
 
   return (
     <div>
-        <nav className= {`title_bar ${show && 'title_bar2'} h-20 w-full p-6 flex flex-row justify-between text-lg font-semibold `}>
+      { show && (
+        <nav className= {`title_bar title_bar2 h-20 w-full p-6 flex flex-row justify-between text-lg font-semibold `}>
 
           <div className=' w-8/12 md:w-1/2 flex flex-row justify-around items-center'>
-             <span className=' text-4xl text-red-700  cursor-pointer' onClick={handleHideLayout}>MovieFlix</span>
+             <span className=' text-4xl md:text  cursor-pointer' onClick={handleHideLayout}>MovieFlix</span>
              <ul className=' flex flex-row gap-10  text-2xl'>
-               <li className=' cursor-pointer hover:text-red-500'><Link to='/'> Home         </Link></li>
-               <li className=' cursor-pointer hover:text-red-500'><Link to='/mylist'>  My List        </Link> </li>    
+               <li className=' cursor-pointer'><Link to='/'> Home   </Link></li>
+               <li className=' cursor-pointer'><Link to='/mylist'>  My List        </Link> </li>    
              </ul>
              <div>
 
@@ -41,11 +42,12 @@ export default function Navbar({handleHideLayout}) {
 
              </div>
           </div>
-          <div className=' text-4xl text-red-800'>
-              <RiAccountCircleFill/> 
+          <div className=''>
+              <RiAccountCircleFill size={32}/> 
             {/* personal account icon */}
           </div>
         </nav>
+      )}
       
     </div>
   )
