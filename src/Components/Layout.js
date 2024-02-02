@@ -74,7 +74,7 @@ export default function Layout({hideLayout}) {
               </>
               
             }/>
-            <Route exact path='/mylist' element={<MyList handleMylist={handleMylist} likedMovieName={likedMovieName} />}/>
+            {/* <Route exact path='/mylist' element={<MyList handleMylist={handleMylist} likedMovieName={likedMovieName} />}/> */}
          </Routes>
         
 
