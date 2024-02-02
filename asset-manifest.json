@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/MovieApp/static/css/main.c1ca94e8.css",
-    "main.js": "/MovieApp/static/js/main.9382d72f.js",
+    "main.js": "/MovieApp/static/js/main.1f4672ba.js",
     "static/media/netflix_background.png": "/MovieApp/static/media/netflix_background.bf3a2484e5e291afb1b6.png",
     "static/media/ChildrenZone.png": "/MovieApp/static/media/ChildrenZone.18173e06455c8e236fcf.png",
     "static/media/android.png": "/MovieApp/static/media/android.5783331cc49747676e3c.png",
@@ -9,10 +9,10 @@
     "static/media/Logo_title.png": "/MovieApp/static/media/Logo_title.bea5f069369a417836bb.png",
     "index.html": "/MovieApp/index.html",
     "main.c1ca94e8.css.map": "/MovieApp/static/css/main.c1ca94e8.css.map",
-    "main.9382d72f.js.map": "/MovieApp/static/js/main.9382d72f.js.map"
+    "main.1f4672ba.js.map": "/MovieApp/static/js/main.1f4672ba.js.map"
   },
   "entrypoints": [
     "static/css/main.c1ca94e8.css",
-    "static/js/main.9382d72f.js"
+    "static/js/main.1f4672ba.js"
   ]
 }
