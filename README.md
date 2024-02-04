@@ -1,5 +1,9 @@
 MovieFlix is a Movieapp or a Netflix clone where you can find movies and series under different categories.
 
+Tables of Content
+#Categories
+#Future Improvments
+
 #Categories Added :
 1.Trending
 2.Top Rated
@@ -7,6 +11,12 @@ MovieFlix is a Movieapp or a Netflix clone where you can find movies and series 
 4.Action Movies
 5.Commedy Entertainers
 6.Horror Movies
+
+#Future Improvements :
+Signup and Login Page.
+Page for subscription plans.
+
+
 
 
 #explore more 
