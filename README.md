@@ -7,7 +7,8 @@
 
 ## Image Preview
 
-![Image Preview](src/images/Screenshots/elearning_preview1.gif)
+![Image Preview](src/Components/Images/preview1.gif)
+![Image Preview](src/Components/Images/preview2.gif)
 
 
 </div>
@@ -24,15 +25,17 @@
 
 ## Features
 
-- **Interactive Courses:** Engaging and interactive courses to enhance the learning experience.
-- **Mentorship:** Connect with experienced mentors for personalized guidance.
-- **User Profiles:** Track progress, achievements, and learning milestones.
-- **Discussion Forums:** Collaborate with peers and mentors through discussion forums.
-- **Resource Library:** Access a rich library of educational materials.
+ **Interactive Home Page:** Engaging and interactive interface showcasing trending movies and TV shows to enhance the user experience.
+- **Movie Details:** Seamlessly integrated with the TMDB API to provide detailed information about movies, including ratings, cast, and trailers.
+- **Search Functionality:** Effortlessly search through a vast database of movies and TV shows to find desired content.
+- **Dynamic UI:** Responsive and dynamic user interface offering smooth navigation and immersive browsing experience.
+- **Choose by Category:** Explore movies and TV shows by genres including Trending, Netflix Originals, Documentaries, Actions, Horrors etc.
+- **Integration with TMDB API:** Utilizes the TMDB API to fetch real-time data, ensuring up-to-date information and seamless integration with the TMDB ecosystem.
+
 
 ## Demo
 
- [Live](https://callmevineeth.github.io/EdMentor02/)
+ [Live](https://callmevineeth.github.io/MovieApp/)
 
 ## Getting Started
 
@@ -44,8 +47,8 @@ Follow these instructions to get a copy of the project up and running on your lo
 
 ### Installation
 
-1. Clone the repository: `git clone https://github.com/callmeVineeth/EduMentor2.git`
-2. Navigate to the project directory: `cd EduMentor`
+1. Clone the repository: `git clone https://github.com/callmeVineeth/MovieApp.git`
+2. Navigate to the project directory: `cd MovieApp`
 3. Install dependencies: `npm install`
 4. Start the development server: `npm start`
 
