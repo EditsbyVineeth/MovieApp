@@ -25,7 +25,7 @@
 
 ## Features
 
- **Interactive Home Page:** Engaging and interactive interface showcasing trending movies and TV shows to enhance the user experience.
+- **Interactive Home Page:** Engaging and interactive interface showcasing trending movies and TV shows to enhance the user experience.
 - **Movie Details:** Seamlessly integrated with the TMDB API to provide detailed information about movies, including ratings, cast, and trailers.
 - **Search Functionality:** Effortlessly search through a vast database of movies and TV shows to find desired content.
 - **Dynamic UI:** Responsive and dynamic user interface offering smooth navigation and immersive browsing experience.
