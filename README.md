@@ -3,7 +3,7 @@
 # MovieFlix
 
  <span style="font-size: 18px;">*MovieFlix is an unoffcial netflix clone that allows use to browse unlimited netflix movies and series 
-  free of cost*  </span>
+  free of cost.*  </span>
 
 ## Image Preview
 
